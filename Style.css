@@ -1,0 +1,54 @@
+/* nav ber Styles */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+.menus {
+    display: flex;
+}
+.item {
+    list-style: none;
+    padding: 17px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.logo-pic {
+    width: 120px;
+    padding: 20px;
+}
+.item:hover {
+    color: bisque;
+}
+/* Main section Style  */
+.banner-img{
+    width: 300px;
+}
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url(./images/background.png), linear-gradient(45deg,rgb(0, 0, 0),#202020);
+    color: white;
+}
+.title {
+    font-size: 55px;
+    font-weight: bold;
+}
+.txt-dis {
+    margin: 15px 0px;
+    font-size: 18px;
+}
+.btn {
+    background-color: red;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
